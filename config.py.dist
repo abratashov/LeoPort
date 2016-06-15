@@ -1,13 +1,17 @@
+# https://habrahabr.ru/post/276495/
+# run
+# python export.py text
+
 # words sources
-# example ~/words.txt
+# example dictinaries/language-leader/03-work.txt
 # default kindle path for Mac Os "/Volumes/Kindle/system/vocabulary/vocab.db"
 sources = {
-    'text' : '',
+    'text' : 'dictinaries/language-leader/03-work.txt',
     'kindle' : ''
 }
 
 # Auth data for Lingualeo
 auth = {
-    'email' : 'email@email',
+    'email' : 'email@gmail.com',
     'password' : 'password'
 }

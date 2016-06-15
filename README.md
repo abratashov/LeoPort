@@ -22,3 +22,4 @@ For kindle:
 ```
 python truncate.py
 ```
+Read more https://habrahabr.ru/post/276495/

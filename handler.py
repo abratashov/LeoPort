@@ -1,5 +1,3 @@
-import sqlite3
-
 class Word:
     text = '';
     context = '';

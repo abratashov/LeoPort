@@ -51,3 +51,4 @@ class Lingualeo:
         req = opener.open(url, data)
 
         return json.loads(req.read())
+
