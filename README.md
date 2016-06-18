@@ -1,29 +1,25 @@
-[![Build Status](https://travis-ci.org/relaxart/LeoPort.svg?branch=master)](https://travis-ci.org/relaxart/LeoPort)
-[![Coverage Status](https://coveralls.io/repos/github/relaxart/LeoPort/badge.svg?branch=test_prepare)](https://coveralls.io/github/relaxart/LeoPort?branch=master)
+lingualeo export
+================
 
-LeoPort
-=======
-Allow add words from several formats to [Lingualeo.com](http://lingualeo.com/)
-
-## Requirements
-Java 8
-[Oracle Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-## How to launch on Windows
+## Configuration
+Create file config.py from config.py.dist
 ```
-gradlew.bat run
+  cp ./config.py.dist config.py
+```
+Add your settings in config.py
+zz
+## Launching
+For text file:
+```
+  python export.py text
+```
+For kindle:
+```
+  python export.py kindle
 ```
 
-## How to launch on MacOs/Unix
+Сleaning Kindle dictionary:
 ```
-./gradlew run
+python truncate.py
 ```
-
-## Formats
-- Kindle (sqlite) Default file located /Volumes/Kindle/system/vocabulary/vocab.db
-- Text. All words should be in one column.
-
-## Text example:
-apple  
-orange  
-watermelon
+Read more https://habrahabr.ru/post/276495/

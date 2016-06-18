@@ -1,6 +1,2 @@
-/build/
-/.gradle/
-/target/
-*.iml
-*.iws
-*.ipr
+config.py
+*.pyc
