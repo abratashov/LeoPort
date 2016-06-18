@@ -7,7 +7,7 @@ Create file config.py from config.py.dist
   cp ./config.py.dist config.py
 ```
 Add your settings in config.py
-zz
+
 ## Launching
 For text file:
 ```
